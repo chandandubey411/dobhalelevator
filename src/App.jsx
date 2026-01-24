@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Aesthetics from "./pages/Aesthetics";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+      <Footer/>
     </Router>
   );
 };

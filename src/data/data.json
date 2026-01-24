@@ -33,23 +33,49 @@
   ],
 
   "services": [
-    {
-      "id": 1,
-      "title": "Elevator Installation",
-      "description": "Professional installation services ensuring safety, precision, and compliance with standards."
-    },
-    {
-      "id": 2,
-      "title": "Maintenance & AMC",
-      "description": "Regular maintenance and annual contracts to ensure smooth and uninterrupted operation."
-    },
-    {
-      "id": 3,
-      "title": "Modernization",
-      "description": "Upgrade existing elevators with modern technology, improved safety, and better performance."
-    }
-  ],
-  
+  {
+    "id": 1,
+    "title": "Elevator Installation",
+    "description": "End-to-end elevator installation services executed by skilled professionals, ensuring precise fitting, smooth operation, and full compliance with national and international safety standards."
+  },
+  {
+    "id": 2,
+    "title": "Maintenance & AMC",
+    "description": "Comprehensive maintenance and annual maintenance contracts designed to minimize downtime, improve performance, and extend the lifespan of elevator systems."
+  },
+  {
+    "id": 3,
+    "title": "Modernization",
+    "description": "Upgradation of existing elevators with advanced control systems, improved safety features, energy-efficient components, and modern aesthetics."
+  },
+  {
+    "id": 4,
+    "title": "Elevator Repair & Breakdown Support",
+    "description": "Quick-response repair services and breakdown support to restore elevator functionality safely and efficiently, reducing inconvenience and operational delays."
+  },
+  {
+    "id": 5,
+    "title": "Safety Inspection & Audits",
+    "description": "Detailed safety inspections and performance audits to identify potential risks, ensure compliance, and maintain the highest safety standards."
+  },
+  {
+    "id": 6,
+    "title": "Custom Elevator Solutions",
+    "description": "Tailor-made elevator solutions designed to meet specific building requirements, load capacities, and architectural designs."
+  },
+  {
+    "id": 7,
+    "title": "Control Panel & System Upgrades",
+    "description": "Installation and upgrading of elevator control panels and automation systems for improved efficiency, reliability, and user experience."
+  },
+  {
+    "id": 8,
+    "title": "Energy-Efficient Solutions",
+    "description": "Implementation of energy-saving elevator technologies that reduce power consumption while maintaining optimal performance."
+  }
+]
+,
+
   "testimonials": [
     {
       "id": 1,
