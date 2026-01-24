@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Passenger Elevator",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.8mL6V7ZhB3EzWUmeP9wQZwHaFe?pid=Api&P=0&h=220",
+      "description": "Smooth, safe and energy-efficient elevators designed for residential and commercial buildings."
+    },
+    {
+      "id": 2,
+      "title": "Hospital Elevator",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.RJsa7pKS9l9GcEg4E5ovcgHaJL?pid=Api&P=0&h=220",
+      "description": "Specially designed elevators for hospitals ensuring patient safety and smooth movement."
+    },
+    {
+      "id": 3,
+      "title": "Freight Elevator",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.kbDLiPviGJYfex4AMDDlggHaFT?pid=Api&P=0&h=220",
+      "description": "Heavy-duty elevators designed to carry goods safely and efficiently."
+    },
+    {
+      "id": 4,
+      "title": "Home Elevator",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.d991SVRMy2tnVkX6jwG8twHaJ3?pid=Api&P=0&h=220",
+      "description": "Compact and stylish elevators for modern homes and villas."
+    },
+    {
+      "id": 5,
+      "title": "MRL Elevator",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.45ph-H6QfqSZLG3CvgNDOgHaE8?pid=Api&P=0&h=220",
+      "description": "Machine Room Less elevators offering space-saving and energy-efficient solutions."
+    }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "title": "Elevator Installation",
+      "description": "Professional installation services ensuring safety, precision, and compliance with standards."
+    },
+    {
+      "id": 2,
+      "title": "Maintenance & AMC",
+      "description": "Regular maintenance and annual contracts to ensure smooth and uninterrupted operation."
+    },
+    {
+      "id": 3,
+      "title": "Modernization",
+      "description": "Upgrade existing elevators with modern technology, improved safety, and better performance."
+    }
+  ],
+  
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Amit Sharma",
+      "designation": "Project Manager",
+      "company": "Residential Tower, Delhi",
+      "message": "Dobhal Elevator provided excellent quality elevators with smooth installation and reliable service. Highly recommended.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Rohit Verma",
+      "designation": "Hospital Administrator",
+      "company": "City Hospital",
+      "message": "Their hospital elevators are extremely smooth and safe. Maintenance support is very responsive.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Neha Gupta",
+      "designation": "Architect",
+      "company": "Commercial Complex",
+      "message": "Premium aesthetics and great customization options. Dobhal Elevator delivers both quality and design.",
+      "rating": 4
+    }
+  ]
+
+}
