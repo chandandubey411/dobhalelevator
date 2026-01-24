@@ -11,6 +11,7 @@ import Aesthetics from "./pages/Aesthetics";
 import Testimonials from "./pages/Testimonials";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
+import FloatingCTA from "./components/FloatingCTA";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         </Routes>
       </main>
       <Footer/>
+      <FloatingCTA/>
     </Router>
   );
 };

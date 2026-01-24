@@ -1,36 +1,55 @@
 {
   "products": [
-    {
-      "id": 1,
-      "title": "Passenger Elevator",
-      "image": "https://tse1.mm.bing.net/th/id/OIP.8mL6V7ZhB3EzWUmeP9wQZwHaFe?pid=Api&P=0&h=220",
-      "description": "Smooth, safe and energy-efficient elevators designed for residential and commercial buildings."
-    },
-    {
-      "id": 2,
-      "title": "Hospital Elevator",
-      "image": "https://tse4.mm.bing.net/th/id/OIP.RJsa7pKS9l9GcEg4E5ovcgHaJL?pid=Api&P=0&h=220",
-      "description": "Specially designed elevators for hospitals ensuring patient safety and smooth movement."
-    },
-    {
-      "id": 3,
-      "title": "Freight Elevator",
-      "image": "https://tse2.mm.bing.net/th/id/OIP.kbDLiPviGJYfex4AMDDlggHaFT?pid=Api&P=0&h=220",
-      "description": "Heavy-duty elevators designed to carry goods safely and efficiently."
-    },
-    {
-      "id": 4,
-      "title": "Home Elevator",
-      "image": "https://tse1.mm.bing.net/th/id/OIP.d991SVRMy2tnVkX6jwG8twHaJ3?pid=Api&P=0&h=220",
-      "description": "Compact and stylish elevators for modern homes and villas."
-    },
-    {
-      "id": 5,
-      "title": "MRL Elevator",
-      "image": "https://tse4.mm.bing.net/th/id/OIP.45ph-H6QfqSZLG3CvgNDOgHaE8?pid=Api&P=0&h=220",
-      "description": "Machine Room Less elevators offering space-saving and energy-efficient solutions."
-    }
-  ],
+  {
+    "id": 1,
+    "title": "Passenger Elevator",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.8mL6V7ZhB3EzWUmeP9wQZwHaFe?pid=Api&P=0&h=220",
+    "description": "Smooth, safe, and energy-efficient passenger elevators designed for residential and commercial buildings, offering quiet operation and modern aesthetics."
+  },
+  {
+    "id": 2,
+    "title": "Hospital Elevator",
+    "image": "https://jeclift.com/wp-content/uploads/2022/07/7b5bd5bc9fa3cee5cbb8612100b0967c-1200x899.jpg",
+    "description": "Specially designed hospital elevators ensuring patient safety, smooth movement of stretchers, and hygienic interiors for healthcare environments."
+  },
+  {
+    "id": 3,
+    "title": "Freight Elevator",
+    "image": "https://tse2.mm.bing.net/th/id/OIP.kbDLiPviGJYfex4AMDDlggHaFT?pid=Api&P=0&h=220",
+    "description": "Heavy-duty freight elevators engineered to carry goods and materials safely, ideal for factories, warehouses, and industrial buildings."
+  },
+  {
+    "id": 4,
+    "title": "Home Elevator",
+    "image": "https://www.beautifulrenovations.ca/wp-content/uploads/2023/08/9.elevator.jpg",
+    "description": "Compact, stylish, and customizable home elevators designed to enhance comfort, accessibility, and luxury in modern homes and villas."
+  },
+  {
+    "id": 5,
+    "title": "MRL Elevator",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.45ph-H6QfqSZLG3CvgNDOgHaE8?pid=Api&P=0&h=220",
+    "description": "Machine Room Less elevators that save space and energy, offering smooth performance and modern design without a separate machine room."
+  },
+  {
+    "id": 6,
+    "title": "Panoramic Glass Elevator",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.CJuCeQe0S4BSNEf7ELjMUAHaFj?pid=Api&P=0&h=220",
+    "description": "Elegant panoramic glass elevators providing a premium visual experience, ideal for malls, hotels, and luxury commercial spaces."
+  },
+  {
+    "id": 7,
+    "title": "Goods Cum Passenger Elevator",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.qso2LKshc1fTYkWr15HKzwHaGi?pid=Api&P=0&h=220",
+    "description": "Versatile elevators designed to safely transport both passengers and goods in commercial and industrial environments."
+  },
+  {
+    "id": 8,
+    "title": "Car Elevator",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.VBSSrDZILp0M9AGsT0e3nQHaGc?pid=Api&P=0&h=220",
+    "description": "High-capacity car elevators designed for residential complexes, showrooms, and parking facilities to move vehicles safely and efficiently."
+  }
+]
+,
 
   "services": [
   {
