@@ -26,11 +26,8 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Dobhal Elevator Logo"
-              className="h-10 w-auto"
+              className="h-12 md:h-16 w-auto"
             />
-            <span className="font-semibold text-lg text-gray-800 hidden sm:block">
-              Dobhal Elevator
-            </span>
           </Link>
 
           {/* Desktop Menu */}

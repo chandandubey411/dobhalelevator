@@ -22,7 +22,7 @@ const App = () => {
       {/* Page Content */}
       <main className="bg-[#F2F2F2] min-h-screen">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<><Home /><Products /><Services /></>} />
           <Route path="/our-company" element={<OurCompany />} />
           <Route path="/products" element={<Products />} />
           <Route path="/services" element={<Services />} />
