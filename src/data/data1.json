@@ -1,0 +1,194 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Passenger Elevator",
+            "image": "https://easaelevators.in/wp-content/uploads/2024/12/1-6.png",
+            "description": "Smooth, safe, and energy-efficient passenger elevators designed for residential and commercial buildings.",
+            "products": [
+                {
+                    "id": "p1-1",
+                    "title": "Standard Passenger Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGM3HOcAaYhJ-MNKF1eKAl41ClnZqbczHVfA&s",
+                    "description": "Ideal for mid-rise buildings with standard capacity."
+                },
+                {
+                    "id": "p1-2",
+                    "title": "Luxury Glass Cabin",
+                    "image": "https://tiimg.tistatic.com/fp/1/008/277/stainless-steel-glass-elevator-cabin-for-office-use-296.jpg",
+                    "description": "Premium glass finish for high-end residential complexes."
+                },
+                {
+                    "id": "p1-3",
+                    "title": "High-Speed Commercial Lift",
+                    "image": "https://5.imimg.com/data5/SELLER/Default/2024/4/411785116/PL/YS/JP/28023285/high-speed-lifts.jpg",
+                    "description": "Fast and efficient transport for skyscrapers."
+                },
+                {
+                    "id": "p1-4",
+                    "title": "Observation Elevator",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdanuTPthW6KWcNDviPSbTl6aYMxKo4xeE5w&s",
+                    "description": "Offers panoramic views while ensuring smooth vertical transportation."
+                },
+                {
+                    "id": "p1-5",
+                    "title": "Custom Cabin Design",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7fpOj2zvfuQ2edgDWUadgddSbpi8ktztudQ&s",
+                    "description": "Tailored interiors to match your building's unique aesthetic."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Hospital Elevator",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROGQ2dbXnDsNo6ZaSmvBIngSVoB_BvCxX06A&s",
+            "description": "Specially designed hospital elevators ensuring patient safety and smooth movement of stretchers.",
+            "products": [
+                {
+                    "id": "p2-1",
+                    "title": "Stretcher Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRG3wSx-1o_UvB-fQZOv0F2vc1hGlKhaTxfQ&s",
+                    "description": "Deep car design to accommodate stretchers and medical equipment."
+                },
+                {
+                    "id": "p2-2",
+                    "title": "Bed Elevator",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRcnNyTQOhGDDxZ2T12s3wLGHkKH2P-na3tw&s",
+                    "description": "Extra smooth transition for critical patient transport."
+                },
+                {
+                    "id": "p2-3",
+                    "title": "Emergency Service Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf4WuPuIUp7x67serHMdC9TSEuHGMmIgXZvw&s",
+                    "description": "Priority control features for rapid emergency response."
+                },
+                {
+                    "id": "p2-4",
+                    "title": "Large Capacity Ward Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXpmtGG2Y1CqhH4My8bTvOxxflOX0iG0tNyQ&s",
+                    "description": "Spacious design for moving multiple beds and staff simultaneously."
+                },
+                {
+                    "id": "p2-5",
+                    "title": "Clean Room Elevator",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3pV5ZvDa5W8aLabtReI3glbmllaTx5rZqLQ&s",
+                    "description": "Hygienic materials and finishes suitable for sterile environments."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Freight Elevator",
+            "image": "https://www.tkelevator.com/media/usa_canada/blog_1/20220322_fedexforum_memphis_309_l_freight-open-empty_1_image_w1200_h630.webp",
+            "description": "Heavy-duty freight elevators engineered to carry goods and materials safely.",
+            "products": [
+                {
+                    "id": "p3-1",
+                    "title": "Industrial Goods Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUAuFZxk9GyDLvbpP6VuChHkUHys5Nr0Itkw&s",
+                    "description": "Rugged build for factories and warehouses."
+                },
+                {
+                    "id": "p3-2",
+                    "title": "Automobile Elevator",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGrV8CjwpVbG46rT56jXPPeIZbyDji9ZVEGA&s",
+                    "description": "Heavy capacity lift designed for transporting vehicles."
+                },
+                {
+                    "id": "p3-3",
+                    "title": "Heavy Duty Freight Lift",
+                    "image": "https://tiimg.tistatic.com/fp/2/007/111/heavy-duty-freight-elevator-957.jpg",
+                    "description": "Capable of handling extreme loads for industrial applications."
+                },
+                {
+                    "id": "p3-4",
+                    "title": "Dumbwaiter",
+                    "image": "https://5.imimg.com/data5/ZS/NS/MS/SELLER-31771584/dumb-waiter-elevators-500x500.jpg",
+                    "description": "Small freight elevator for transporting food or light goods between floors."
+                },
+                {
+                    "id": "p3-5",
+                    "title": "Dock Leveler Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU_y1uq_bYbtDoqtOdrtlJc2Vtzf1wY3vuog&s",
+                    "description": "Specialized lift for loading docks and logistics centers."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Home Elevator",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj2DI4vwE5bRegkOOYFGwpPf7DWrCtRyKj_w&s",
+            "description": "Compact, stylish, and customizable home elevators for private residences.",
+            "products": [
+                {
+                    "id": "p4-1",
+                    "title": "Hydraulic Home Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSccjcAILBuLmspNbkyTyoR6SSJPHO-KCh8Cw&s",
+                    "description": "Quiet and smooth hydraulic system for homes."
+                },
+                {
+                    "id": "p4-2",
+                    "title": "Vacuum Elevator",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKWLBcaOGBoaCOI0EBzlwNP74_7Pn7j9_ktA&s",
+                    "description": "Space-saving vacuum technology for retrofitting."
+                },
+                {
+                    "id": "p4-3",
+                    "title": "Gearless Home Lift",
+                    "image": "https://5.imimg.com/data5/ZB/IY/XB/GLADMIN-13821702/selection-356-500x500.png",
+                    "description": "Energy-efficient and silent operation for modern homes."
+                },
+                {
+                    "id": "p4-4",
+                    "title": "Wheelchair Accessible Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZHAcN42RtY_kzwNJ5Iet6bfQtzNx1OdLDhg&s",
+                    "description": "Designed with wider doors and spacious cabins for accessibility."
+                },
+                {
+                    "id": "p4-5",
+                    "title": "Glass Scenic Home Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpB3IOg38ZQSYo4n6ofcXMN9KppjKT_b4LHA&s",
+                    "description": "Adding elegance to your home with transparent glass walls."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "MRL Elevator",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYd-bIAKGM9SghwCC1O5gsMy03LZzw-nEfng&s",
+            "description": "Machine Room Less elevators that save space and energy.",
+            "products": [
+                {
+                    "id": "p5-1",
+                    "title": "Gearless MRL Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeO3EZ435uSqjOfH_b1a6PhiNsjdueCDMssA&s",
+                    "description": "Energy efficient gearless traction engine."
+                },
+                {
+                    "id": "p5-2",
+                    "title": "Compact MRL Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK3roihId3Mwp4IFJkHaFhVpINWwfPRHXZbw&s",
+                    "description": "Minimal headroom and pit requirements for tight spaces."
+                },
+                {
+                    "id": "p5-3",
+                    "title": "High-Rise MRL Elevator",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1VUFYGgwETrpZ36np1JxvGSskgDlAl8Rwzg&s",
+                    "description": "Advanced systems for taller buildings without machine rooms."
+                },
+                {
+                    "id": "p5-4",
+                    "title": "Eco-Friendly MRL Lift",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzVBMP-6D5zBYojeqrFBOnVkCUc3YitbqjMg&s",
+                    "description": "Designed with sustainable materials and regeneration technology."
+                },
+                {
+                    "id": "p5-5",
+                    "title": "Panoramic MRL Elevator",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ90u9dvFPxAmgy3XGfURQkI4bQ52Gr6lGzKw&s",
+                    "description": "Combining view and efficiency in a machine-room-less package."
+                }
+            ]
+        }
+    ]
+}

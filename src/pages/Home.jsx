@@ -5,6 +5,7 @@ import {
   FaTools,
   FaHeadset,
 } from "react-icons/fa";
+import Slider from "../components/slider";
 
 const Home = () => {
   const products = [
@@ -53,19 +54,19 @@ const Home = () => {
     <div className="w-full">
 
       {/* ================= HERO VIDEO ================= */}
-      <section className="w-full h-[calc(100vh-64px)] relative overflow-hidden">
-        <video
-          className="w-full h-full object-cover"
-          src="/videos/elevator.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
-      </section>
+      <div className="flex flex-col md:flex-row items-center gap-3">
+        <div className="w-[90%] md:w-[50%] p-1 pt-4">
+          <section className="w-full h-[calc(60vh)] relative overflow-hidden object-contain">
+            <Slider />
+          </section>
+        </div>
+        <div className="hidden md:flex  w-[45%] flex items-center justify-center ">
+          <img src="/images/logo.png" className="w-auto h-[500px]" />
+        </div>
+      </div>
 
       {/* ================= OUR PRODUCTS ================= */}
-      <section className="bg-[#F2F2F2] py-16">
+      <section className="bg-[#F2F2F2] py-10">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl font-semibold text-gray-800 mb-8">
             Our Products

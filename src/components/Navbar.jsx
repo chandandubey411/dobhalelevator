@@ -26,7 +26,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Dobhal Elevator Logo"
-              className="h-12 md:h-16 w-auto"
+              className="h-16 md:h-20 w-auto"
             />
           </Link>
 

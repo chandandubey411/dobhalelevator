@@ -68,6 +68,100 @@ const OurCompany = () => {
         </div>
       </section>
 
+      {/* ================= MANUFACTURING UNIT ================= */}
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-4">
+          {/* Heading */}
+          <div className="max-w-4xl mb-12">
+            <h2 className="text-2xl md:text-4xl font-semibold text-gray-800">
+              In-House Manufacturing Unit
+            </h2>
+            <p className="mt-4 text-gray-600">
+              At Dobhal Elevator, we take pride in having our{" "}
+              <strong>own fully equipped manufacturing unit</strong>, enabling
+              us to maintain strict quality control, faster delivery timelines,
+              and complete customization as per client requirements.
+            </p>
+          </div>
+
+          {/* Content */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div>
+              <p className="text-gray-600 mb-4">
+                Our manufacturing facility is equipped with modern machinery and
+                is managed by experienced engineers and technicians. From
+                elevator cabins, doors, control panels, and structural
+                components — every product is manufactured with precision and
+                tested rigorously before installation.
+              </p>
+
+              <p className="text-gray-600 mb-4">
+                Having an in-house manufacturing setup allows us to ensure:
+              </p>
+
+              <ul className="space-y-3 text-gray-600">
+                <li>✔ Consistent build quality and safety compliance</li>
+                <li>✔ Custom designs for residential & commercial projects</li>
+                <li>✔ Faster production and installation timelines</li>
+                <li>✔ Better after-sales and spare part availability</li>
+              </ul>
+
+              {/* Address Box */}
+              <div className="mt-8 bg-[#F2F2F2] p-6 rounded-xl">
+                <h4 className="font-semibold text-gray-800 mb-2">
+                  Manufacturing Unit Address
+                </h4>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  Plot No. 15, Behind Santosh Hospital, Near Anuja Petrol Pump,
+                  <br />
+                  Scheme Shani Gate G2B Factory Area,
+                  <br />
+                  44 & 45 Phase-1, UPSIDC, MG Road,
+                  <br />
+                  Hapur, Uttar Pradesh, India
+                </p>
+              </div>
+            </div>
+
+            {/* Right Images / Gallery */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="h-48 bg-gray-200 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img
+                  src="https://www.schindler.com/content/dam/website/us/images/company/sec-clinton-plant.jpg/_jcr_content/renditions/original./sec-clinton-plant.jpg"
+                  alt="Manufacturing Unit"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <div className="h-48 bg-gray-200 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img
+                  src="https://framerusercontent.com/images/LGX849Em7KCAPJjPmi0v2z1cc.jpg?width=650&height=441"
+                  alt="Elevator Manufacturing"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <div className="h-48 bg-gray-200 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKdQ8Xg9v1QYL-28pIYxnPKgntUHS04oT2TA&s"
+                  alt="Production Facility"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <div className="h-48 bg-gray-200 rounded-lg overflow-hidden hover:scale-105 transition">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipZm_uXqiFZvjTNZyKP8P_eAugkFGSoqJmA&s"
+                  alt="Quality Testing"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ================= EXPERIENCE STATS ================= */}
       <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4">
