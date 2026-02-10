@@ -5,7 +5,7 @@ import {
   FaTools,
   FaHeadset,
 } from "react-icons/fa";
-import Slider from "../components/slider";
+import Slider from "../components/Slider";
 
 const Home = () => {
   const products = [
