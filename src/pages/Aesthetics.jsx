@@ -1,112 +1,172 @@
-import React from "react";
+import React, { useState } from "react";
+import aestheticsData from "../data/aestheticsData.json";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Aesthetics = () => {
-  const aestheticsData = [
-    {
-      title: "Luxury Cabin Design",
-      image: "https://i.pinimg.com/originals/aa/5b/4b/aa5b4b360c79695020a95914b4fa8426.jpg",
-      description:
-        "Premium cabin interiors with modern finishes, elegant panels, and superior craftsmanship."
-    },
-    {
-      title: "Automatic Doors & Finishes",
-      image: "https://ushaelevators.com/wp-content/uploads/2020/11/automatic_doors2.jpg",
-      description:
-        "Smooth automatic doors with stainless steel and decorative finish options."
-    },
-    {
-      title: "Control Panels",
-      image: "https://images.pexels.com/photos/16026070/pexels-photo-16026070/free-photo-of-control-panel-in-elevator.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      description:
-        "Modern touch and button control panels with LED indicators."
-    },
-    {
-      title: "Cabin Lighting",
-      image: "https://i.pinimg.com/originals/70/4e/e0/704ee0269cc6ce82b5e49ee820443047.png",
-      description:
-        "Energy-efficient lighting systems enhancing cabin ambience."
-    },
-    {
-      title: "Flooring Options",
-      image: "https://tse3.mm.bing.net/th/id/OIP.JSLa2iUyXqmUA0cdEIlswgHaEK?pid=Api&P=0&h=220",
-      description:
-        "Granite, marble, and designer flooring options for durability and style."
-    },
-    {
-      title: "Mirror & Accessories",
-      image: "https://5.imimg.com/data5/SELLER/Default/2022/8/QK/CX/OQ/72736522/ss-cabin-hairline-and-mirror-combination-1000x1000.jpg",
-      description:
-        "High-quality mirrors, handrails, and accessories for safety and comfort."
-    }
-  ];
+  const [selectedCategory, setSelectedCategory] = useState(null);
 
   return (
     <div className="w-full">
-
       {/* ================= HERO ================= */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
+          <motion.h1
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="text-4xl md:text-6xl font-bold text-gray-800"
+          >
             Aesthetics & Fixtures
-          </h1>
-          <p className="mt-4 max-w-3xl text-gray-600">
-            Elevate the look and feel of your elevators with premium aesthetics,
-            modern fixtures, and customizable interior designs.
-          </p>
+          </motion.h1>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mt-6 max-w-3xl text-gray-600 text-xl leading-relaxed"
+          >
+            <AnimatePresence mode="wait">
+              {selectedCategory ? (
+                <motion.p
+                  key="category-desc"
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -20 }}
+                >
+                  Explore our premium collection of <span className="font-semibold text-[#C9A24D]">{selectedCategory.title}</span>.
+                </motion.p>
+              ) : (
+                <motion.p
+                  key="default-desc"
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: 20 }}
+                >
+                  Elevate the look and feel of your elevators with premium aesthetics, modern fixtures, and customizable interior designs.
+                </motion.p>
+              )}
+            </AnimatePresence>
+          </motion.div>
         </div>
       </section>
 
       {/* ================= GALLERY ================= */}
-      <section className="bg-[#F2F2F2] py-16">
+      <section className="bg-[#F2F2F2] py-20">
         <div className="max-w-7xl mx-auto px-4">
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {aestheticsData.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition"
+          <AnimatePresence>
+            {selectedCategory && (
+              <motion.button
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                onClick={() => setSelectedCategory(null)}
+                className="mb-8 flex items-center text-[#C9A24D] hover:text-[#b08d42] transition font-medium text-lg"
               >
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="h-64 w-full object-contain hover:object-cover"
-                />
+                ← Back to Categories
+              </motion.button>
+            )}
+          </AnimatePresence>
 
-                <div className="p-6">
-                  <h3 className="text-lg font-medium text-gray-800">
-                    {item.title}
-                  </h3>
-                  <p className="text-sm text-gray-600 mt-3">
-                    {item.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <motion.div
+            layout
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+          >
+            <AnimatePresence mode="popLayout">
+              {selectedCategory
+                ? // Setup for PRODUCT LIST view
+                selectedCategory.products.map((product, index) => (
+                  <motion.div
+                    layout
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.9 }}
+                    transition={{ duration: 0.3 }}
+                    key={product.id || index}
+                    className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group"
+                  >
+                    <div className="h-64 overflow-hidden bg-white p-4">
+                      <img
+                        src={product.image}
+                        alt={product.title}
+                        className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-110"
+                      />
+                    </div>
 
+                    <div className="p-6">
+                      <h3 className="text-xl font-semibold text-gray-800">
+                        {product.title}
+                      </h3>
+                      <p className="text-gray-600 mt-3 leading-relaxed">
+                        {product.description}
+                      </p>
+                    </div>
+                  </motion.div>
+                ))
+                : // Setup for CATEGORY LIST view
+                aestheticsData.map((category, index) => (
+                  <motion.div
+                    layout
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 20 }}
+                    transition={{ duration: 0.3, delay: index * 0.05 }}
+                    key={category.id || index}
+                    onClick={() => setSelectedCategory(category)}
+                    className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer group"
+                  >
+                    <div className="h-64 overflow-hidden bg-white p-4">
+                      <img
+                        src={category.image}
+                        alt={category.title}
+                        className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-110"
+                      />
+                    </div>
+
+                    <div className="p-6">
+                      <h3 className="text-xl font-semibold text-gray-800 group-hover:text-[#C9A24D] transition-colors">
+                        {category.title}
+                      </h3>
+                      <p className="text-gray-600 mt-3 leading-relaxed">
+                        {category.description}
+                      </p>
+                      <span className="inline-block mt-4 text-sm font-bold text-[#C9A24D] uppercase tracking-wide group-hover:translate-x-2 transition-transform">
+                        View Products →
+                      </span>
+                    </div>
+                  </motion.div>
+                ))}
+            </AnimatePresence>
+          </motion.div>
         </div>
       </section>
 
       {/* ================= CUSTOMIZATION CTA ================= */}
-      <section className="bg-[#C9A24D] py-16 text-white text-center">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-semibold">
+      <section className="bg-[#C9A24D] py-20 text-white text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-5xl mx-auto px-4"
+        >
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Customize Your Elevator Experience
           </h2>
-          <p className="mt-4">
+          <p className="mt-4 text-xl opacity-90">
             Choose from a wide range of designs, materials, and finishes to
             match your building’s style.
           </p>
 
-          <a
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             href="/contact"
-            className="inline-block mt-6 bg-white text-[#C9A24D] px-6 py-3 rounded-md font-medium hover:opacity-90 transition"
+            className="inline-block mt-8 bg-white text-[#C9A24D] px-8 py-3 rounded-full font-bold shadow-lg hover:bg-gray-100 transition duration-300"
           >
             Get Custom Design
-          </a>
-        </div>
+          </motion.a>
+        </motion.div>
       </section>
-
     </div>
   );
 };

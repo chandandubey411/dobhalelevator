@@ -14,7 +14,7 @@ const Slider = () => {
   const images = [
     "/images/el1.png",
     "/images/el2.png",
-    "https://technoelevators.com/wp-content/uploads/2025/12/Hospital-Elevator-1.webp",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUciA2c5epVD4BttPOXq2maFayDdUNbKI5fg&s",
     "https://www.tkelevator.com/media/usa_canada/blog_1/20220322_fedexforum_memphis_309_l_freight-open-empty_1_image_w1200_h630.webp",
   ];
 

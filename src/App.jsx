@@ -20,7 +20,7 @@ const App = () => {
       <Navbar />
 
       {/* Page Content */}
-      <main className="bg-[#F2F2F2] min-h-screen">
+      <main className="bg-[#F2F2F2] min-h-screen pt-24">
         <Routes>
           <Route path="/" element={<><Home /><Products /><Services /></>} />
           <Route path="/our-company" element={<OurCompany />} />
@@ -31,8 +31,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
-      <Footer/>
-      <FloatingCTA/>
+      <Footer />
+      <FloatingCTA />
     </Router>
   );
 };

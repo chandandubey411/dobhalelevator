@@ -1,84 +1,121 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
 import logo from "../assets/logo.png";
 
 const Footer = () => {
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: { duration: 0.5 },
+    },
+  };
+
   return (
     <footer className="bg-black text-gray-300">
-      <div className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-4 gap-10">
-
+      <motion.div
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+        className="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-4 gap-10"
+      >
         {/* Logo & About */}
-        <div>
+        <motion.div variants={itemVariants}>
           <img
             src={logo}
             alt="Dobhal Elevator Logo"
             className="h-12 mb-4"
           />
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-gray-400 leading-relaxed">
             Dobhal Elevator delivers safe, reliable, and modern elevator
             solutions with a strong focus on quality, technology, and
             customer satisfaction.
           </p>
-        </div>
+        </motion.div>
 
         {/* Quick Links */}
-        <div>
-          <h4 className="text-white font-semibold mb-4">
-            Quick Links
-          </h4>
+        <motion.div variants={itemVariants}>
+          <h4 className="text-white font-semibold mb-4 text-lg">Quick Links</h4>
           <ul className="space-y-2 text-sm">
-            <li><Link to="/" className="hover:text-[#C9A24D]">Home</Link></li>
-            <li><Link to="/our-company" className="hover:text-[#C9A24D]">Our Company</Link></li>
-            <li><Link to="/products" className="hover:text-[#C9A24D]">Products</Link></li>
-            <li><Link to="/services" className="hover:text-[#C9A24D]">Services</Link></li>
-            <li><Link to="/aesthetics" className="hover:text-[#C9A24D]">Aesthetics & Fixtures</Link></li>
-            <li><Link to="/contact" className="hover:text-[#C9A24D]">Contact Us</Link></li>
+            {["Home", "Our Company", "Products", "Services", "Aesthetics & Fixtures", "Contact Us"].map((link, index) => (
+              <li key={index}>
+                <Link
+                  to={link === "Home" ? "/" : `/${link.toLowerCase().replace(/ & /g, "-").replace(/ /g, "-")}`}
+                  className="hover:text-[#C9A24D] transition-colors duration-300 block"
+                >
+                  {link}
+                </Link>
+              </li>
+            ))}
           </ul>
-        </div>
+        </motion.div>
 
         {/* Services */}
-        <div>
-          <h4 className="text-white font-semibold mb-4">
-            Services
-          </h4>
+        <motion.div variants={itemVariants}>
+          <h4 className="text-white font-semibold mb-4 text-lg">Services</h4>
           <ul className="space-y-2 text-sm">
-            <li className="hover:text-[#C9A24D]">Elevator Installation</li>
-            <li className="hover:text-[#C9A24D]">Maintenance & AMC</li>
-            <li className="hover:text-[#C9A24D]">Modernization</li>
-            <li className="hover:text-[#C9A24D]">Repair & Support</li>
+            {["Elevator Installation", "Maintenance & AMC", "Modernization", "Repair & Support"].map((service, index) => (
+              <li key={index} className="hover:text-[#C9A24D] transition-colors duration-300 cursor-pointer">
+                {service}
+              </li>
+            ))}
           </ul>
-        </div>
+        </motion.div>
 
         {/* Contact */}
-        <div>
-          <h4 className="text-white font-semibold mb-4">
-            Contact
-          </h4>
+        <motion.div variants={itemVariants}>
+          <h4 className="text-white font-semibold mb-4 text-lg">Contact</h4>
 
-          <div className="flex items-center gap-3 mb-3">
-            <FaPhoneAlt className="text-[#C9A24D]" />
-            <span className="text-sm">+91 8130708265</span>
+          <div className="space-y-4">
+            <div className="flex items-center gap-3 group">
+              <div className="p-2 bg-gray-800 rounded-full group-hover:bg-[#C9A24D] transition-colors duration-300">
+                <FaPhoneAlt className="text-[#C9A24D] group-hover:text-white transition-colors duration-300" size={14} />
+              </div>
+              <span className="text-sm group-hover:text-white transition-colors duration-300">+91 8130708265</span>
+            </div>
+
+            <div className="flex items-center gap-3 group">
+              <div className="p-2 bg-gray-800 rounded-full group-hover:bg-[#C9A24D] transition-colors duration-300">
+                <FaEnvelope className="text-[#C9A24D] group-hover:text-white transition-colors duration-300" size={14} />
+              </div>
+              <span className="text-sm group-hover:text-white transition-colors duration-300">Sales.dobhalelevator@gmail.com</span>
+            </div>
+
+            <div className="flex items-start gap-3 group">
+              <div className="p-2 bg-gray-800 rounded-full group-hover:bg-[#C9A24D] transition-colors duration-300 mt-1">
+                <FaMapMarkerAlt className="text-[#C9A24D] group-hover:text-white transition-colors duration-300" size={14} />
+              </div>
+              <span className="text-sm group-hover:text-white transition-colors duration-300">
+                Plot No. 15, Behind Santosh Hospital, Near Anuja Petrol Pump,
+                <br />
+                Scheme Shani Gate G2B Factory Area,
+                <br />
+                44 & 45 Phase-1, UPSIDC, MG Road,
+                <br />
+                Hapur, Uttar Pradesh, India
+              </span>
+            </div>
           </div>
-
-          <div className="flex items-center gap-3 mb-3">
-            <FaEnvelope className="text-[#C9A24D]" />
-            <span className="text-sm">
-              Sales.dobhalelevator@gmail.com
-            </span>
-          </div>
-
-          <div className="flex items-center gap-3">
-            <FaMapMarkerAlt className="text-[#C9A24D]" />
-            <span className="text-sm">India</span>
-          </div>
-        </div>
-
-      </div>
+        </motion.div>
+      </motion.div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-gray-800 py-4 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Dobhal Elevator. All rights reserved.
+      <div className="border-t border-gray-800 py-6 text-center text-sm text-gray-500 bg-black/95">
+        &copy; {new Date().getFullYear()} Dobhal Elevator. All rights reserved.
       </div>
     </footer>
   );

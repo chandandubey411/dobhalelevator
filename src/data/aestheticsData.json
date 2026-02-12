@@ -1,0 +1,230 @@
+[
+    {
+        "id": "luxury-cabin",
+        "title": "Luxury Cabin Design",
+        "image": "https://i.pinimg.com/originals/aa/5b/4b/aa5b4b360c79695020a95914b4fa8426.jpg",
+        "description": "Premium cabin interiors with modern finishes, elegant panels, and superior craftsmanship.",
+        "products": [
+            {
+                "id": "lcd-1",
+                "title": "Gold High-Gloss Cabin",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5T5eQZGBJT7rLPk2z-P5dfjLsFvkxYPX71Q&s",
+                "description": "A stunning gold-finished cabin with mirrored panels for a royal look."
+            },
+            {
+                "id": "lcd-2",
+                "title": "Modern Minimalist Cabin",
+                "image": "https://i.pinimg.com/originals/aa/5b/4b/aa5b4b360c79695020a95914b4fa8426.jpg",
+                "description": "Sleek stainless steel design with ambient lighting."
+            },
+            {
+                "id": "lcd-3",
+                "title": "Wooden Finish Classic",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY3yUix6hOSTLOj40dQYaucaSRjBCarW7bLg&s",
+                "description": "Elegant wooden textures for a warm and traditional feel."
+            },
+            {
+                "id": "lcd-4",
+                "title": "Panoramic Glass Cabin",
+                "image": "https://generalcabin.com/wp-content/uploads/2021/06/FlatGlass_02.webp",
+                "description": "Full glass walls offering breathtaking views."
+            },
+            {
+                "id": "lcd-5",
+                "title": "Abstract Art Cabin",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfMwGRIFyORo2HiRnSSMJyfeGl5R-jEinWoA&s",
+                "description": "Custom printed artistic panels for a unique aesthetic."
+            }
+        ]
+    },
+    {
+        "id": "automatic-doors",
+        "title": "Automatic Doors & Finishes",
+        "image": "https://ushaelevators.com/wp-content/uploads/2020/11/automatic_doors2.jpg",
+        "description": "Smooth automatic doors with stainless steel and decorative finish options.",
+        "products": [
+            {
+                "id": "ad-1",
+                "title": "Hairline Stainless Steel Door",
+                "image": "https://5.imimg.com/data5/SELLER/Default/2022/1/VP/FD/YL/51315531/hairline-finish-auto-door-goods-elevator.jpg",
+                "description": "Classic and durable stainless steel finish."
+            },
+            {
+                "id": "ad-2",
+                "title": "Glass Door with Frame",
+                "image": "https://www.wittur.com/adm/Images/contents/large/Wittur-Hotel-Kempinski-Wien-02.jpg",
+                "description": "Transparent glass doors with robust framing."
+            },
+            {
+                "id": "ad-3",
+                "title": "Gold Etched Door",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKN2RxlftTcgAoZT30q_873AShkXhhAUli8A&s",
+                "description": "Luxurious gold finish with intricate etched patterns."
+            },
+            {
+                "id": "ad-4",
+                "title": "Designer Pattern Door",
+                "image": "https://thumbs.dreamstime.com/b/closed-lift-door-pattern-design-office-building-175037459.jpg",
+                "description": "Custom geometrical patterns for a modern look."
+            },
+            {
+                "id": "ad-5",
+                "title": "Telescopic Opening Door",
+                "image": "https://cpimg.tistatic.com/6436519/b/4/manual-telescopic-door-elevator.jpg",
+                "description": "Space-saving telescopic doors for wider openings."
+            }
+        ]
+    },
+    {
+        "id": "control-panels",
+        "title": "Control Panels",
+        "image": "https://images.pexels.com/photos/16026070/pexels-photo-16026070/free-photo-of-control-panel-in-elevator.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "description": "Modern touch and button control panels with LED indicators.",
+        "products": [
+            {
+                "id": "cp-1",
+                "title": "Touch Screen COP",
+                "image": "https://www.segmentelevators.com/assets/images/elevator-touch-cop-lop-1.png",
+                "description": "Full touch interface with multimedia capabilities."
+            },
+            {
+                "id": "cp-2",
+                "title": "Classic Button Panel",
+                "image": "https://media.istockphoto.com/id/1288408696/vector/elevator-buttons-panel.jpg?s=612x612&w=0&k=20&c=NV7xlRsqgo_0FRrTYgp_X1dcDeTxSxD7ehKeNnlnzBI=",
+                "description": "Reliable tactile buttons with braille support."
+            },
+            {
+                "id": "cp-3",
+                "title": "Slim Line COP",
+                "image": "https://d91ztqmtx7u1k.cloudfront.net/ClientContent/Images/Catalogue/metal-elevator-cop-lop20230918072500.jpg",
+                "description": "Minimalist slim panel for a sleek look."
+            },
+            {
+                "id": "cp-4",
+                "title": "Gold Finish COP",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcYX-KMubPQ4fR5c-cD6pDMrsoX_vnM0KuTg&s",
+                "description": "Premium gold plating to match luxury interiors."
+            },
+            {
+                "id": "cp-5",
+                "title": "Horizontal COP",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUhLs6gkB_1h5a113A9WODupaa0Gbs0QzKUg&s",
+                "description": "Horizontal layout for accessibility (wheelchair friendly)."
+            }
+        ]
+    },
+    {
+        "id": "cabin-lighting",
+        "title": "Cabin Lighting",
+        "image": "https://i.pinimg.com/originals/70/4e/e0/704ee0269cc6ce82b5e49ee820443047.png",
+        "description": "Energy-efficient lighting systems enhancing cabin ambience.",
+        "products": [
+            {
+                "id": "cl-1",
+                "title": "Starry Night Ceiling",
+                "image": "https://images.jdmagicbox.com/quickquotes/images_main/star-ceiling-376117133-vsxm3.jpg",
+                "description": "Fiber optic lights creating a starry sky effect."
+            },
+            {
+                "id": "cl-2",
+                "title": "Perimeter LED Cove",
+                "image": "https://media.licdn.com/dms/image/v2/D4E12AQGKwoXaafRbrw/article-cover_image-shrink_720_1280/B4EZi9dOMhHIAI-/0/1755525212396?e=2147483647&v=beta&t=MzdvRYCRG1FneSKe1ZTEBRw1F-QK8MkrLPwXSw7zsvE",
+                "description": "Soft indirect lighting around the ceiling edges."
+            },
+            {
+                "id": "cl-3",
+                "title": "Spotlight Array",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccnS35i_ImdDkbCqWRg5VVCVwWS0-HfnoVw&s",
+                "description": "Focused downlights for bright and clear illumination."
+            },
+            {
+                "id": "cl-4",
+                "title": "Acrylic Diffuser Panel",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8kUbZwED7YUnykieRXCgdEA0rtF0mj49kKQ&s",
+                "description": "Uniform soft light across the entire ceiling."
+            },
+            {
+                "id": "cl-5",
+                "title": "Chandelier Style",
+                "image": "https://i.pinimg.com/736x/58/34/33/583433d0617524512ad48f243124bd3e.jpg",
+                "description": "Decorative hanging lights for a vintage luxury feel."
+            }
+        ]
+    },
+    {
+        "id": "flooring-options",
+        "title": "Flooring Options",
+        "image": "https://tse3.mm.bing.net/th/id/OIP.JSLa2iUyXqmUA0cdEIlswgHaEK?pid=Api&P=0&h=220",
+        "description": "Granite, marble, and designer flooring options for durability and style.",
+        "products": [
+            {
+                "id": "fo-1",
+                "title": "Black Galaxy Granite",
+                "image": "https://5.imimg.com/data5/SELLER/Default/2025/9/541611761/UE/EF/JR/191120486/south-indian-black-galaxy-granites-500x500.jpeg",
+                "description": "Deep black granite with golden specks."
+            },
+            {
+                "id": "fo-2",
+                "title": "Checkered Marble",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWUnUfPQWeodzZiY-w1pLD-prd_-LcZpFVOA&s",
+                "description": "Classic black and white checkered pattern."
+            },
+            {
+                "id": "fo-3",
+                "title": "PVC Design Floor",
+                "image": "https://image.made-in-china.com/2f0j00liFVErbJESGB/Customized-Square-2mm-3mm-PVC-Elevator-Floor-Logo-Printed-Design-PVC-Elevation-Tiles.webp",
+                "description": "Durable and easy-to-clean synthetic flooring with patterns."
+            },
+            {
+                "id": "fo-4",
+                "title": "Custom Stone Mosaic",
+                "image": "https://s.alicdn.com/@sc04/kf/Hba4ed7afe12e42379bd7d08ac2bac2bbX/Wholesale-Elevator-Flooring-Customizable-Elevator-Mat-Eco-Friendly-PVC-Vinyl-Floor-for-Elevator-Use.jpeg_300x300.jpg",
+                "description": "Intricate stone inlay designs."
+            },
+            {
+                "id": "fo-5",
+                "title": "Rubberized Safety Floor",
+                "image": "https://5.imimg.com/data5/SELLER/Default/2024/5/422015313/TX/EL/VQ/163952089/rubber-lift-mat-500x500.jpg",
+                "description": "Non-slip surface ideal for freight or hospital elevators."
+            }
+        ]
+    },
+    {
+        "id": "mirror-accessories",
+        "title": "Mirror & Accessories",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2022/8/QK/CX/OQ/72736522/ss-cabin-hairline-and-mirror-combination-1000x1000.jpg",
+        "description": "High-quality mirrors, handrails, and accessories for safety and comfort.",
+        "products": [
+            {
+                "id": "ma-1",
+                "title": "Full Height Mirror",
+                "image": "https://images.jdmagicbox.com/quickquotes/images_main/s-s-hairline-back-wall-full-height-mirror-ceiling-elevator-cabin-386110035-clliv.jpg",
+                "description": "Floor-to-ceiling mirror for a spacious feel."
+            },
+            {
+                "id": "ma-2",
+                "title": "Half Mirror with Handrail",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAOijDYoMH_lUGaGjQibK3rVzLL2nZCfCd9w&s",
+                "description": "Top-half mirror combined with a sturdy handrail."
+            },
+            {
+                "id": "ma-3",
+                "title": "Round Stainless Handrail",
+                "image": "https://www.aflyelevators.com/wp-content/uploads/2023/11/AF-QT00496.png",
+                "description": "Classic cylindrical handrail in polished steel."
+            },
+            {
+                "id": "ma-4",
+                "title": "Flat Bar Handrail",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6NHxvw3NLUVdY7YPUCxlCcpdzMUCZN1R0xA&s",
+                "description": "Modern flat profile handrail."
+            },
+            {
+                "id": "ma-5",
+                "title": "Golden Tinted Mirror",
+                "image": "https://images.jdmagicbox.com/quickquotes/images_main/designer-gold-elevator-cabin-for-houses-2220454596-p3q9ft34.jpg",
+                "description": "Amber-tinted mirror for a warm, luxurious look."
+            }
+        ]
+    }
+]
