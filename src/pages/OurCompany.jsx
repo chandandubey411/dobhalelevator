@@ -163,7 +163,21 @@ const OurCompany = () => {
                 </div>
               </div>
 
-              {/* Address Box */}
+              {/* Office Address Box */}
+              <div className="bg-[#F2F2F2] p-6 rounded-xl border-l-4 border-[#C9A24D] mb-6">
+                <h4 className="font-semibold text-gray-800 mb-2 flex items-center gap-2">
+                  <FaBuilding className="text-[#C9A24D]" /> Office Address
+                </h4>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  B-12, Krishna Complex,
+                  <br />
+                  Maharaja Aggarsain Marg, Sector 31,
+                  <br />
+                  Noida, Ghaziabad, Uttar Pradesh 201303
+                </p>
+              </div>
+
+              {/* Factory Address Box */}
               <div className="bg-[#F2F2F2] p-6 rounded-xl border-l-4 border-[#C9A24D]">
                 <h4 className="font-semibold text-gray-800 mb-2 flex items-center gap-2">
                   <FaIndustry className="text-[#C9A24D]" /> Factory Address
@@ -207,6 +221,16 @@ const OurCompany = () => {
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipZm_uXqiFZvjTNZyKP8P_eAugkFGSoqJmA&s"
                   alt="Quality Testing"
+                  className="w-full h-48 object-cover rounded-lg shadow-sm hover:scale-105 transition duration-500"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop"
+                  alt="Elevator Manufacturing Process"
+                  className="w-full h-48 object-cover rounded-lg shadow-sm hover:scale-105 transition duration-500"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop"
+                  alt="Industrial Factory Floor"
                   className="w-full h-48 object-cover rounded-lg shadow-sm hover:scale-105 transition duration-500"
                 />
               </div>
