@@ -100,13 +100,18 @@ const Footer = () => {
                 <FaMapMarkerAlt className="text-[#C9A24D] group-hover:text-white transition-colors duration-300" size={14} />
               </div>
               <span className="text-sm group-hover:text-white transition-colors duration-300">
-                Plot No. 15, Behind Santosh Hospital, Near Anuja Petrol Pump,
-                <br />
+                Factory Address: Plot No. 15, Behind Santosh Hospital, Near Anuja Petrol Pump,
                 Scheme Shani Gate G2B Factory Area,
-                <br />
                 44 & 45 Phase-1, UPSIDC, MG Road,
-                <br />
                 Hapur, Uttar Pradesh, India
+              </span>
+            </div>
+            <div className="flex items-start gap-3 group">
+              <div className="p-2 bg-gray-800 rounded-full group-hover:bg-[#C9A24D] transition-colors duration-300 mt-1">
+                <FaMapMarkerAlt className="text-[#C9A24D] group-hover:text-white transition-colors duration-300" size={14} />
+              </div>
+              <span className="text-sm group-hover:text-white transition-colors duration-300">
+                Corporate office : B-12, Krishna Complex, Maharaja Aggarsain Marg, Sector 31, Noida, Ghaziabad, Uttar Pradesh 201303
               </span>
             </div>
           </div>
